@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mharis0801/Creativity-Assignment---Final-Portfolio/static/css/main.54ea78af.css",
+    "main.js": "/mharis0801/Creativity-Assignment---Final-Portfolio/static/js/main.fe10394c.js",
+    "index.html": "/mharis0801/Creativity-Assignment---Final-Portfolio/index.html",
+    "main.54ea78af.css.map": "/mharis0801/Creativity-Assignment---Final-Portfolio/static/css/main.54ea78af.css.map",
+    "main.fe10394c.js.map": "/mharis0801/Creativity-Assignment---Final-Portfolio/static/js/main.fe10394c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54ea78af.css",
+    "static/js/main.fe10394c.js"
+  ]
+}
