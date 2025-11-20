@@ -10,6 +10,13 @@ const Navigation = ({ activeSection, scrollToSection }) => {
         { id: 'conclusion', label: 'Conclusion' },
     ];
 
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+    const handleNavClick = (id) => {
+        scrollToSection(id);
+        setIsMenuOpen(false);
+    };
+
     return (
         <motion.nav
             className="nav-bar"
@@ -17,10 +24,19 @@ const Navigation = ({ activeSection, scrollToSection }) => {
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="nav-logo">
-                <span role="img" aria-label="star">✨</span> Muhammad Haris CPS Portfolio
+            <div className="nav-header">
+                <div className="nav-logo">
+                    <span role="img" aria-label="star">✨</span> Muhammad Haris CPS Portfolio
+                </div>
+                <button
+                    className="nav-toggle"
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    aria-label="Toggle navigation"
+                >
+                    <span className={`hamburger ${isMenuOpen ? 'open' : ''}`}></span>
+                </button>
             </div>
-            <ul className="nav-links">
+            <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                 {navItems.map((item) => (
                     <motion.li
                         key={item.id}
@@ -29,7 +45,7 @@ const Navigation = ({ activeSection, scrollToSection }) => {
                     >
                         <button
                             className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
-                            onClick={() => scrollToSection(item.id)}
+                            onClick={() => handleNavClick(item.id)}
                             style={{ background: 'none', border: 'none', fontSize: '1rem' }}
                         >
                             {item.label}
