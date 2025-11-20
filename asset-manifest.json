@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Creativity-Assignment---Final-Portfolio/static/css/main.6659faac.css",
-    "main.js": "/Creativity-Assignment---Final-Portfolio/static/js/main.7b3610f0.js",
+    "main.css": "/Creativity-Assignment---Final-Portfolio/static/css/main.5596e75c.css",
+    "main.js": "/Creativity-Assignment---Final-Portfolio/static/js/main.b93df0e0.js",
     "index.html": "/Creativity-Assignment---Final-Portfolio/index.html",
-    "main.6659faac.css.map": "/Creativity-Assignment---Final-Portfolio/static/css/main.6659faac.css.map",
-    "main.7b3610f0.js.map": "/Creativity-Assignment---Final-Portfolio/static/js/main.7b3610f0.js.map"
+    "main.5596e75c.css.map": "/Creativity-Assignment---Final-Portfolio/static/css/main.5596e75c.css.map",
+    "main.b93df0e0.js.map": "/Creativity-Assignment---Final-Portfolio/static/js/main.b93df0e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6659faac.css",
-    "static/js/main.7b3610f0.js"
+    "static/css/main.5596e75c.css",
+    "static/js/main.b93df0e0.js"
   ]
 }
