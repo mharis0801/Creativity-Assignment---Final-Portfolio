@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Designing the Future of Problem Solving
+## Creative Problem Solving (CPS) Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio documents a comprehensive Creative Problem Solving (CPS) journey addressing digital inclusion barriers in public libraries. It showcases the process from initial observation to the development of a sustainable, community-driven solution.
 
-## Available Scripts
+![Project Banner](https://img.shields.io/badge/CPS-Portfolio-blueviolet?style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-In the project directory, you can run:
+## 🚀 Project Overview
 
-### `npm start`
+**The Challenge:** Public libraries face a "digital divide" where older adults and newcomers struggle to access digital services due to anxiety, lack of support, and systemic design failures.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**The Solution:** The **Senior Tech Ambassadors Program** — a peer mentorship model that transforms library users with teaching experience into certified digital literacy mentors. This shifts the model from dependency to empowerment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📚 Portfolio Sections
 
-### `npm test`
+1.  **Introduction:** Outlines the problem, challenge, and proposed solution.
+2.  **The Creative Journey:** Details the four phases of the CPS process:
+    *   **Spot the Problem:** Observation at Mississauga Central Library.
+    *   **Research:** Empathy interviews and secondary research.
+    *   **Define:** Root cause analysis (Fishbone) and POV statements.
+    *   **Ideate:** SCAMPER, brainstorming, and decision matrices.
+3.  **Prototype:** Presents the "Senior Tech Ambassadors Program," including recruitment, training, and expected impact.
+4.  **Reflection:** Personal insights on how the CPS methodology transformed the approach to complex challenges.
+5.  **Conclusion:** Key takeaways emphasizing process over product and community as a resource.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Key Features
 
-### `npm run build`
+*   **Dynamic Animations:** Smooth scroll reveals, staggered entrance animations, and interactive elements using `framer-motion`.
+*   **Responsive Design:** Fully responsive layout that adapts to all screen sizes.
+*   **Modern UI:** Clean, professional aesthetic with a curated color palette and glassmorphism effects.
+*   **Interactive Navigation:** Smooth scrolling navigation to easily jump between portfolio sections.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*   **React:** Component-based UI architecture.
+*   **Framer Motion:** For complex, fluid animations and gestures.
+*   **CSS3:** Custom styling with CSS variables and flexbox/grid layouts.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏁 Getting Started
 
-### `npm run eject`
+To run this project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/mharis0801/Creativity-Assignment---Final-Portfolio.git
+    ```
+2.  **Install dependencies:**
+    ```bash
+    cd cps-portfolio
+    npm install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm start
+    ```
+4.  **View in browser:**
+    Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📄 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is a student portfolio created for a Creative Problem Solving assignment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Designed and developed with creativity and code.*
