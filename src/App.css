@@ -432,7 +432,16 @@ html {
 }
 
 /* Responsive */
+/* Responsive */
 @media (max-width: 768px) {
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .hero {
+    padding: 4rem 1rem;
+  }
+
   .hero h1 {
     font-size: 2rem;
   }
@@ -441,9 +450,26 @@ html {
     font-size: 1rem;
   }
 
+  .nav-bar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
   }
 
   .timeline::before {
@@ -452,11 +478,13 @@ html {
 
   .timeline-item {
     flex-direction: column !important;
+    margin-bottom: 2rem;
   }
 
   .timeline-content {
-    width: 100%;
-    margin-left: 60px;
+    width: calc(100% - 50px);
+    margin-left: 50px;
+    padding: 1.5rem;
   }
 
   .timeline-marker {
@@ -467,7 +495,30 @@ html {
     font-size: 2rem;
   }
 
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
   .cards-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .prototype-container,
+  .reflection-box {
+    padding: 1.5rem;
+  }
+
+  .reflection-quote {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+
+  .stat-box {
+    padding: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
   }
 }
